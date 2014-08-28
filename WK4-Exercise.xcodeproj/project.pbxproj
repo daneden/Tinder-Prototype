@@ -12,6 +12,9 @@
 		71025D9219AE9801000F5F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71025D9019AE9801000F5F5E /* Main.storyboard */; };
 		71025D9419AE9801000F5F5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71025D9319AE9801000F5F5E /* Images.xcassets */; };
 		71025DA019AE9801000F5F5E /* WK4_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71025D9F19AE9801000F5F5E /* WK4_ExerciseTests.swift */; };
+		71025DAA19AE9855000F5F5E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71025DA919AE9855000F5F5E /* CardViewController.swift */; };
+		71025DAD19AEA052000F5F5E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71025DAC19AEA052000F5F5E /* ProfileViewController.swift */; };
+		71025DAF19AEA36B000F5F5E /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71025DAE19AEA36B000F5F5E /* CustomSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		71025D9919AE9801000F5F5E /* WK4-ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WK4-ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71025D9E19AE9801000F5F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71025D9F19AE9801000F5F5E /* WK4_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WK4_ExerciseTests.swift; sourceTree = "<group>"; };
+		71025DA919AE9855000F5F5E /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		71025DAC19AEA052000F5F5E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		71025DAE19AEA36B000F5F5E /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegue.swift; path = ../CustomSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,8 @@
 		71025D8919AE9801000F5F5E /* WK4-Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				71025DAB19AE98FE000F5F5E /* View Controllers */,
+				71025DAE19AEA36B000F5F5E /* CustomSegue.swift */,
 				71025D8C19AE9801000F5F5E /* AppDelegate.swift */,
 				71025D8E19AE9801000F5F5E /* ViewController.swift */,
 				71025D9019AE9801000F5F5E /* Main.storyboard */,
@@ -107,6 +115,15 @@
 				71025D9E19AE9801000F5F5E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71025DAB19AE98FE000F5F5E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71025DAC19AEA052000F5F5E /* ProfileViewController.swift */,
+				71025DA919AE9855000F5F5E /* CardViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +227,9 @@
 			files = (
 				71025D8F19AE9801000F5F5E /* ViewController.swift in Sources */,
 				71025D8D19AE9801000F5F5E /* AppDelegate.swift in Sources */,
+				71025DAD19AEA052000F5F5E /* ProfileViewController.swift in Sources */,
+				71025DAF19AEA36B000F5F5E /* CustomSegue.swift in Sources */,
+				71025DAA19AE9855000F5F5E /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
